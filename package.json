@@ -1,0 +1,16 @@
+{
+  "name": "expr_quotes_gen",
+  "version": "1.0.0",
+  "description": "This app generates random quotes and others too.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": "Shreedhar Sawant",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  }
+}

@@ -1,0 +1,131 @@
+/* headerlinks page of quotes generator */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish:wght@300&display=swap');
+
+html
+{
+  font-size: 62.50%;   /*now here 1rem = 10px*/
+}
+
+:root
+{
+  --box_bg : #23049D;
+  --hero_body : #ffffff;
+}
+
+
+.hero-body
+{
+  background-color: var(--hero_body);
+}
+
+.main_page_left
+{
+  /* height: 70rem; */
+  display: flex;
+  justify-content: center;
+  /* 3 text should be in sequence */
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main_page_left h1
+{
+  font-family: 'Merriweather', serif;
+  font-size: 7rem;
+}
+.main_page_left h2
+{
+  font-family: 'Mulish', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* website name */
+.icon-text span
+{
+  font-family: 'Raleway', sans-serif;
+
+}
+
+/* navbar a tag */
+.navbar-end a
+{
+  font-family: 'Mulish', sans-serif;
+  padding: 2rem;
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+.content .quotes
+{
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: 'Roboto Slab', serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.author
+{
+  font-family: 'Crimson Pro', serif;
+  font-size: 5rem;
+  font-weight: 500;
+  padding-left: 45rem;
+}
+
+
+
+.content p
+{
+   font-family: 'Great Vibes', cursive;
+   font-size: 4rem;
+   font-weight: 500;
+}
+
+.hero-foot p
+{
+  font-family: 'Mulish', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+
+/*
+.site_name i, h1
+{
+  color: #c8d6e5;
+}
+
+.navbar-end a
+{
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.9rem;
+  font-weight: bolder;
+  color: #c8d6e5;
+  text-decoration: none;
+}
+*/
+.navbar-end a:hover
+{
+  background-color: #341f97;
+  color: #ffffff;
+  text-decoration: underline;
+}
+/*
+.navbar
+{
+  background-color: #341f97;
+}
+
+.navbar-burger span
+{
+  color: #f1f2f6;
+
+}
+
+.navbar-end a
+{
+  background-color: #341f97;
+} */
